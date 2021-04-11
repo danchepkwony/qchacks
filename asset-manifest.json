@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/qchacks/static/css/main.13192720.chunk.css",
-    "main.js": "/qchacks/static/js/main.e986fef5.chunk.js",
-    "main.js.map": "/qchacks/static/js/main.e986fef5.chunk.js.map",
+    "main.js": "/qchacks/static/js/main.1700dbf1.chunk.js",
+    "main.js.map": "/qchacks/static/js/main.1700dbf1.chunk.js.map",
     "runtime-main.js": "/qchacks/static/js/runtime-main.370315e4.js",
     "runtime-main.js.map": "/qchacks/static/js/runtime-main.370315e4.js.map",
-    "static/js/2.4cb365cd.chunk.js": "/qchacks/static/js/2.4cb365cd.chunk.js",
-    "static/js/2.4cb365cd.chunk.js.map": "/qchacks/static/js/2.4cb365cd.chunk.js.map",
+    "static/js/2.83349c24.chunk.js": "/qchacks/static/js/2.83349c24.chunk.js",
+    "static/js/2.83349c24.chunk.js.map": "/qchacks/static/js/2.83349c24.chunk.js.map",
     "static/js/3.15f9437d.chunk.js": "/qchacks/static/js/3.15f9437d.chunk.js",
     "static/js/3.15f9437d.chunk.js.map": "/qchacks/static/js/3.15f9437d.chunk.js.map",
     "index.html": "/qchacks/index.html",
     "static/css/main.13192720.chunk.css.map": "/qchacks/static/css/main.13192720.chunk.css.map",
-    "static/js/2.4cb365cd.chunk.js.LICENSE.txt": "/qchacks/static/js/2.4cb365cd.chunk.js.LICENSE.txt",
+    "static/js/2.83349c24.chunk.js.LICENSE.txt": "/qchacks/static/js/2.83349c24.chunk.js.LICENSE.txt",
     "static/media/jukebox.24ba48bf.svg": "/qchacks/static/media/jukebox.24ba48bf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.370315e4.js",
-    "static/js/2.4cb365cd.chunk.js",
+    "static/js/2.83349c24.chunk.js",
     "static/css/main.13192720.chunk.css",
-    "static/js/main.e986fef5.chunk.js"
+    "static/js/main.1700dbf1.chunk.js"
   ]
 }
