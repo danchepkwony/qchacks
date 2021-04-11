@@ -6,18 +6,33 @@ const audioContext = new AudioContext();
 const songs = ["../music/BeethovenMoonlight1.mp3"]
 
 const getMusic = () => {
-  for(var url in songs){
-    const player = new Tone.Player(url).toDestination();
-    
+  const merge = new Tone.Merge().toDestination();
+  const main = new Tone.Master();
 
-    axios.get("https://git.heroku.com/qchacks-jukebox.git", { param: "100"})
-    .then((results) => {
-      console.log(results)
-    })
-    .catch( 
-      console.log("Error occurred")
-    );
+  for(var url in songs){
+  //   axios.get("https://qchacks.herokuapp.com/", { param: "100"})
+  //   .then((results) => {
+  //     console.log(results)
+  //   })
+  //   .catch( 
+  //     console.log("Error occurred")
+  //   );
+  // }
+
+    for(var i = 0; i < 8; i++){
+      const pitchShift = new Tone.PitchShift().toDestination();
+      const player = new Tone.Player(url).connect(pitchShift).toDestination();
+      pitchShift.pitch = i;
+      var vol = new Tone.Volume(12);
+      if(i!=0){
+        var vol = new Tone.Volume(6);
+      }
+      player.chain(vol, Tone.Master);
+      player.connect(merge, 0, 0);
+    }
   }
+
+  main.start();
 }
 
 export default getMusic;

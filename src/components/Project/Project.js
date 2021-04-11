@@ -10,7 +10,7 @@ const Project = () => {
         <div className = "Project">
             <div className = "Jukebox">
                 <img src={jukebox}/>
-                <p className = "song">Now Playing:</p>
+                <p className = "song">Now Playing: Beethoven's Moonlight Sonata</p>
             </div>
         </div>);
 }
